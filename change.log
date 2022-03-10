@@ -1,0 +1,3 @@
+10 March 2022
+-revised/fix upload methodology of comment/review images: traits sbwcpr-logged-in ans sbwcpr-logged-out not being used anymore
+-natively included slimmed down version of Magnific popup to get comment/review images to display in lightbox on click successfully
