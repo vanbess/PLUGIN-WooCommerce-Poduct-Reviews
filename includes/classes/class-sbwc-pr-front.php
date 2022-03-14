@@ -54,7 +54,7 @@ class sbwc_pr_front
         if (is_product()) :
             wp_enqueue_script('sbwcpr-magnific-js', SBWCPR_URI . 'includes/magnific/magnific.min.js', ['jquery'], '1.1.0', true);
             wp_enqueue_script('sbwcpr-js', self::sbwcpr_ajax_js(), ['jquery', 'sbwcpr-magnific-js'], false, true);
-            wp_enqueue_style('sbwcpr-magnific-css', SBWCPR_URI . 'includes/magnific/magnific.min.css', [], false, 'all');
+            // wp_enqueue_style('sbwcpr-magnific-css', SBWCPR_URI . 'includes/magnific/magnific.min.css', [], false, 'all');
             wp_enqueue_style('sbwcpr-css', self::sbwcpr_frontend_css(), [], false, 'all');
         endif;
     }
